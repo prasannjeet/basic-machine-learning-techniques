@@ -1,7 +1,9 @@
+- Created By: **Prasannjeet Singh** (*ps222vt@student.lnu.se*)
+- Originaly done as an assignment. The problem statements can be found [here](https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/assignment.pdf).
+- Note that there are a total of 5 exercises solved in this project.
+
 Exercise 1 k-NN Classification
 ==============================
-
-Created By: **Prasannjeet Singh**
 
 This file contains solution 1 through 6 of the first exercise of
 Assignment - 1.
@@ -46,7 +48,7 @@ snapnow;
 close;
 ```
 
-![](Exercise1_01.png)
+![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise1_01.png
 
 **Q2 Implementing kNNclassify algorithm** {#2}
 -----------------------------------------
@@ -97,7 +99,7 @@ OutputMessage =
      The boundary has also been marked with the color blue'
 ```
 
-![](Exercise1_02.png)
+![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise1_02.png
 
 **Q4 kNNdrawBoundary Implementation and Plotting** {#4}
 --------------------------------------------------
@@ -119,7 +121,7 @@ snapnow;
 close(hFig);
 ```
 
-![](Exercise1_03.png)
+![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise1_03.png
 
 **Q5 The Training Error** {#5}
 -------------------------
@@ -141,7 +143,7 @@ snapnow;
 close;
 ```
 
-![](Exercise1_04.png)
+![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise1_04.png
 
 Just by looking at the image above, we can say that in most of the cases
 the training error increases as we increase the value of k. Note that
@@ -222,7 +224,7 @@ OutputMessage =
      The boundary has also been marked with the color red'
 ```
 
-![](Exercise1_05.png)
+![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise1_05.png
 
 **Let us now compare the classifications done by Taxi-Cab algorithm and
 Euclidean algorithm:**
@@ -253,12 +255,10 @@ for i = 1:3
 end
 ```
 
-![](Exercise1_06.png) ![](Exercise1_07.png) ![](Exercise1_08.png)
+![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise1_06.png ![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise1_07.png ![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise1_08.png
 
 Exercise 2 - Multi Class k-NN
 =============================
-
-Submitted by **Prasannjeet Singh**
 
 This file contains solution 1 to 3 of Exercise-2 of Assignment 1.
 
@@ -298,7 +298,7 @@ snapnow;
 close(thisFig);
 ```
 
-![](Exercise2_01.png)
+![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise2_01.png
 
 Q2 Drawing the Decision Boundary {#2}
 --------------------------------
@@ -319,7 +319,7 @@ snapnow;
 close(thisFig);
 ```
 
-![](Exercise2_02.png)
+![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise2_02.png
 
 Q3 Finding the Error Rate from Test Data {#3}
 ----------------------------------------
@@ -354,7 +354,7 @@ snapnow;
 close(hFig);
 ```
 
-![](Exercise2_03.png)
+![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise2_03.png
 
 As can be observed clearly, error increases gradually as we incease the
 value of k. Moreover, after a certain value of k, the error peaks up and
@@ -451,7 +451,7 @@ snapnow;
 close(thisFig);
 ```
 
-![](Exercise3_01.png)
+![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise3_01.png
 
 Now let us find the value of k that minimizes the test error
 
@@ -567,7 +567,7 @@ snapnow;
 close(hFig1);
 ```
 
-![](Exercise4_01.png)
+![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise4_01.png
 
 The heatmap generated above is exactly as we expected it to be. As can
 be observed in the sample data, cost of the vehicle increase when
@@ -592,7 +592,7 @@ snapnow;
 close(hFig2);
 ```
 
-![](Exercise4_02.png)
+![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise4_02.png
 
 Generating 3-D surface heat map {#6}
 -------------------------------
@@ -629,7 +629,7 @@ snapnow;
 close(hFig4);
 ```
 
-![](Exercise4_03.png) ![](Exercise4_04.png)
+![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise4_03.png ![]https://github.com/prasannjeet/basic-machine-learning-techniques/blob/master/html/Exercise4_04.png
 
 Function used to create the heat-map was **imagesc()**, and
 
